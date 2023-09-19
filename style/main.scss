@@ -1,0 +1,410 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+
+//navbar
+nav {
+  position: relative;
+  z-index: 20;
+  .navbar {
+    z-index: 10;
+  }
+
+  .container {
+    padding: 25px 68px;
+
+    #navbarNav {
+      font-family: Montserrat;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 29px;
+      letter-spacing: 0em;
+      text-align: left;
+
+      .navbar-nav {
+        align-items: center;
+        gap: 14px;
+      }
+
+      .btn {
+        margin-left: 41px;
+        color: #fff;
+        background-color: #acd792;
+        border: 1px solid #000000;
+        padding: 0px 11px;
+        height: 39px;
+      }
+    }
+  }
+}
+
+// Adjust Navbar for Smaller Screens
+@media (max-width: 575.98px) {
+  nav {
+    .container {
+      padding-right: 10px;
+      padding-left: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      #navbarNav {
+        .navbar-nav {
+          align-items: start;
+        .btn{
+          margin-left: 0px;
+        }
+        }
+      }
+    }
+  }
+}
+
+//header
+.head-4 {
+  .image1 {
+    position: relative;
+    z-index: 0;
+  }
+
+  .glass {
+    .left {
+      padding-left: 60px;
+      h1 {
+        font-family: Montserrat;
+        font-size: 65px;
+        font-weight: 700;
+        line-height: 70px;
+        letter-spacing: 0em;
+        text-align: left;
+      }
+      p {
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: auto;
+      }
+
+      .input-with-image {
+        display: flex;
+        margin-top: 78px;
+        align-items: center;
+        border: none;
+        padding: 8px;
+        border-radius: 50px;
+        background-color: #fff;
+      }
+
+      .icon {
+        width: 23px;
+        height: 23px;
+        margin-left: 50px;
+      }
+
+      .editable {
+        flex-grow: 1;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        line-height: 1.5;
+        padding-left: 9px;
+        color: #878787;
+      }
+    }
+    .right {
+      padding-right: 60px;
+    }
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.245);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    max-width: 1090px;
+    width: 100%;
+    height: 600px;
+    padding: auto;
+    border-radius: 40px;
+    margin-top: -800px;
+    margin-bottom: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 0;
+  }
+}
+// Adjust Header for Smaller Screens
+@media (max-width: 768px) {
+  .head-4 {
+    .glass {
+      width: 70%;
+      margin-top: 0px;
+      align-items: center;
+      margin: 0px;
+      .left {
+        padding-left: auto;
+        padding-right: auto;
+        h1 {
+          text-align: center;
+          font-size: 40px;
+          line-height: 50px;
+        }
+      }
+    }
+  }
+}
+
+//partner
+#partner {
+  background-color: #acd792;
+  .container {
+    padding-bottom: 53px;
+    justify-content: center;
+    .row {
+      width: fit-content;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      .summarecon {
+        justify-content: center;
+        align-items: center;
+        margin-left: 60px;
+      }
+    }
+  }
+  .text-center {
+    h4 {
+      padding-top: 46px;
+      font-family: Montserrat;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 32px;
+      letter-spacing: 0em;
+      text-decoration: underline;
+      color: #00000032;
+    }
+  }
+}
+
+//about us
+
+#aus {
+  background-color: #ffffff;
+}
+#aboutUs {
+  padding-top: 100px;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-bottom: 100px;
+
+  .info {
+    margin-bottom: 54px;
+    padding-left: 100px;
+    padding-right: 100px;
+    .col {
+      h2 {
+        font-family: Montserrat;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 59px;
+        letter-spacing: 0em;
+      }
+    }
+  }
+  @media (max-width: 575.98px) {
+    #aboutUs {
+      padding-left: 15px;
+      padding-right: 15px;
+
+      .info {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    }
+  }
+  .main {
+    .col-md {
+      .left {
+        h1 {
+          font-family: Montserrat;
+          font-size: 67px;
+          font-weight: 700;
+          line-height: 100px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+
+        p {
+          font-family: Montserrat;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 32px;
+          letter-spacing: 0em;
+          text-align: left;
+          margin-bottom: 84px;
+        }
+
+        .btn {
+          color: #fff;
+          background-color: #acd792;
+          border: 1px solid #000000;
+          padding: 0px 11px;
+          height: 48px;
+          text-align: center;
+          width: 136px;
+        }
+      }
+    }
+  }
+}
+
+// Adjust About Us Section for Smaller Screens
+@media (max-width: 575.98px) {
+  #aboutUs {
+    .info,
+    .main .col-md {
+      text-align: center;
+    }
+  }
+}
+
+// clients
+
+#cl {
+  margin-top: 78px;
+  .gap-img {
+    margin-top: 37px;
+  }
+}
+
+#clients {
+  .cl-head {
+    padding-bottom: 43px;
+    h5 {
+      font-family: Montserrat;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 26px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: #6da04d;
+    }
+
+    h2 {
+      font-family: Montserrat;
+      font-size: 59px;
+      font-weight: 700;
+      line-height: 78px;
+      letter-spacing: 0em;
+      text-align: center;
+      padding-right: 50px;
+      padding-left: 50px;
+    }
+  }
+  .columns {
+    .col {
+      .testimoni {
+        h5 {
+          font-family: Montserrat;
+          font-size: 23px;
+          font-weight: 700;
+          line-height: 20px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+
+        p {
+          font-family: Montserrat;
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 20px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #363636;
+        }
+      }
+      img {
+        max-width: 100px;
+        max-height: 100px;
+        margin-right: 20px;
+      }
+      display: flex;
+      max-width: 1000px;
+      max-height: 400px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 50px;
+      padding-top: 40px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #cl {
+    .columns .col {
+      text-align: center;
+    }
+  }
+}
+
+//footer
+footer {
+  background-color: #acd792;
+  padding-top: 42px;
+  padding-bottom: 42px;
+  padding-left: auto;
+  padding-right: auto;
+  .container {
+    .row {
+      .contact {
+        ul {
+          h5 {
+            text-decoration: underline;
+            text-align: center;
+            color: rgba(0, 0, 0, 0.6);
+          }
+          li {
+            list-style: none;
+            color: rgba(0, 0, 0, 0.6);
+          }
+          a {
+            text-decoration: none;
+            text-align: center;
+            color: rgba(0, 0, 0, 0.6);
+          }
+        }
+      }
+      .social {
+        ul {
+          h5 {
+            text-decoration: underline;
+            color: rgba(0, 0, 0, 0.6);
+          }
+          li {
+            list-style: none;
+            color: rgba(0, 0, 0, 0.6);
+          }
+          a {
+            text-decoration: none;
+            color: rgba(0, 0, 0, 0.6);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  footer {
+    .logo,
+    .social,
+    .contact {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  }
+}
